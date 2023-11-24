@@ -19,7 +19,10 @@ cp -r ./*/*.txt total/
 ```
 pip install jieba
 ```
-3.下载本项目
+3.克隆本项目
+```
+git clone https://github.com/chentaiqiao/tf-idf.git
+```
 4.运行程序
 ```
 python calculate.py
