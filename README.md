@@ -5,11 +5,22 @@
 ```
 wget http://www.nlpir.org/wordpress/download/tc-corpus-answer.rar
 ```
+然后解压rar
+```
+unrar x tc-corpus-answer.rar
+```
+解压后的answer文件夹包含20个子文件夹，这里我们把所有txt都提取到./answer/total文件夹方便后续处理
+```
+mkdir total
+cp -r ./*/*.txt total/
+```
+
 2.安装jieba库
 ```
 pip install jieba
 ```
-3.运行程序
+3.下载本项目
+4.运行程序
 ```
 python calculate.py
 python huitu.py
